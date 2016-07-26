@@ -1,0 +1,10 @@
+import(MatrixModels)
+importFrom(graphics, plot)
+importFrom(methods, show)
+importFrom(outliers, grubbs.test, dixon.test, pgrubbs)
+import(quantreg)
+import(pcaPP)
+
+export(odm, odm.control, rgrubbs.test) 
+exportClasses(OutlierDM)
+exportMethods(show, plot, input, output, outliers, oneplot) 

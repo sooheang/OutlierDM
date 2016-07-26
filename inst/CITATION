@@ -1,0 +1,46 @@
+citHeader("To cite OutlierDM in publications use:")
+
+citEntry(entry="Article",
+         title = "Outlier detection using projection quantile regression for mass spectrometry data with low replication",
+         author = personList( as.person("Soo-Heang Eo"), as.person("Daewoo Pak"), as.person("Jeea Choi"), as.person("HyungJun Cho") ),
+         journal      = "BMC Research Note",
+         year         = "2012",
+         volume       = "5",
+         number       = "236",
+         pages        = "1--10",
+         textVersion =
+         paste("Soo-Heang Eo, Daewoo Pak, Jeea Choi and HyungJun Cho (2012).",
+               "Outlier detection using projection quantile regression for mass spectrometry data with low replication.",
+               "BMC Research Note, 5(236), 1--10."),
+	 header = "If odm() with the projection algorithms is used cite:"
+)
+
+citEntry(entry="Article",
+         title = "Outlier Detection for Mass Spectrometry Data",
+         author = personList( as.person("HyungJun Cho"), as.person("Soo-Heang Eo") ),
+         journal      = "Submitted",
+         year         = "2015+",
+         volume       = "",
+         number       = "",
+         pages        = "",
+         textVersion =
+           paste("HyungJun Cho and Soo-Heang Eo (2015+). ",
+               "Outlier Detection for Mass Spectrometry Data.",
+               "Submitted"),
+   header = "If odm() with the SD and IQR-based algorithms is used cite:"
+)
+
+citEntry(entry="Article",
+         title = "Robust outlier detection using non-crossing quantile regression for mass spectrometry data",
+         author = personList( as.person("Soo-Heang Eo"), as.person("HyungJun Cho") ),
+         journal      = "Submitted",
+         year         = "2015+",
+         volume       = "",
+         number       = "",
+         pages        = "",
+         textVersion =
+           paste("Soo-Heang Eo and HyungJun Cho (2015+). ",
+               "Robust outlier Detection using non-crossing quantile regression for mass spectrometry data.",
+               "Submitted"),
+   header = "If odm() with the non-crossing and robust projection algorithms is used cite:"
+)

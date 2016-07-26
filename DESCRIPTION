@@ -1,0 +1,13 @@
+Package: OutlierDM
+Title: Outlier Detection for Multiplicative High-throughput Data
+Date: 2015-4-30
+Version: 1.2.0
+Authors@R: c(person(given = "Soo-Heang", family = "Eo", role = c("aut","cre"), 
+	email = "eo.sooheang@gmail.com"),
+             person(given = "HyungJun", family = "Cho", role = "aut", 
+	email = "hj4cho@korea.ac.kr"))
+Description: Detecting outlying observations for multiplicative high-throughput high-dimensional data based on a MA plot with quantile regression approach
+Depends: R (>= 3.2.0)
+Imports: quantreg, MatrixModels, outliers, pcaPP, methods, graphics
+Maintainer: Soo-Heang Eo <eo.sooheang@gmail.com>
+License: GPL-3
