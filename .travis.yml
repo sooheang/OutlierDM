@@ -3,6 +3,11 @@ cache: packages
 r:
   - oldrel
 
+r_packages:
+  - covr
+
 before_install:
   - tlmgr install index
 
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
